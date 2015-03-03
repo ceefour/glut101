@@ -37,6 +37,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="glut-3.7.6-bin\glut32.dll" />
+    <Library Include="glut-3.7.6-bin\glut32.lib" />
   </ItemGroup>
 </Project>
