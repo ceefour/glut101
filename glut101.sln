@@ -5,6 +5,14 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut101", "glut101\glut101.vcxproj", "{3C5F25D8-9B1F-4385-A8CE-4C7F7D179591}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut102", "glut102\glut102.vcxproj", "{F51F09B6-95AD-448A-B267-F5067D185DC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut103", "glut103\glut103.vcxproj", "{A563393E-5A25-4457-92D5-CD8E753728A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut103b", "glut103b\glut103b.vcxproj", "{EDBA3988-DFAD-49EE-AABD-957E3E95C5CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glut104", "glut104\glut104.vcxproj", "{CEF74F18-F7A6-4855-A0A1-85FF193AA237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +23,22 @@ Global
 		{3C5F25D8-9B1F-4385-A8CE-4C7F7D179591}.Debug|Win32.Build.0 = Debug|Win32
 		{3C5F25D8-9B1F-4385-A8CE-4C7F7D179591}.Release|Win32.ActiveCfg = Release|Win32
 		{3C5F25D8-9B1F-4385-A8CE-4C7F7D179591}.Release|Win32.Build.0 = Release|Win32
+		{F51F09B6-95AD-448A-B267-F5067D185DC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F51F09B6-95AD-448A-B267-F5067D185DC9}.Debug|Win32.Build.0 = Debug|Win32
+		{F51F09B6-95AD-448A-B267-F5067D185DC9}.Release|Win32.ActiveCfg = Release|Win32
+		{F51F09B6-95AD-448A-B267-F5067D185DC9}.Release|Win32.Build.0 = Release|Win32
+		{A563393E-5A25-4457-92D5-CD8E753728A2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A563393E-5A25-4457-92D5-CD8E753728A2}.Debug|Win32.Build.0 = Debug|Win32
+		{A563393E-5A25-4457-92D5-CD8E753728A2}.Release|Win32.ActiveCfg = Release|Win32
+		{A563393E-5A25-4457-92D5-CD8E753728A2}.Release|Win32.Build.0 = Release|Win32
+		{EDBA3988-DFAD-49EE-AABD-957E3E95C5CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDBA3988-DFAD-49EE-AABD-957E3E95C5CA}.Debug|Win32.Build.0 = Debug|Win32
+		{EDBA3988-DFAD-49EE-AABD-957E3E95C5CA}.Release|Win32.ActiveCfg = Release|Win32
+		{EDBA3988-DFAD-49EE-AABD-957E3E95C5CA}.Release|Win32.Build.0 = Release|Win32
+		{CEF74F18-F7A6-4855-A0A1-85FF193AA237}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEF74F18-F7A6-4855-A0A1-85FF193AA237}.Debug|Win32.Build.0 = Debug|Win32
+		{CEF74F18-F7A6-4855-A0A1-85FF193AA237}.Release|Win32.ActiveCfg = Release|Win32
+		{CEF74F18-F7A6-4855-A0A1-85FF193AA237}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

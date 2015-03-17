@@ -1,4 +1,4 @@
-// glut101.cpp : Defines the entry point for the console application.
+// glut102.cpp : Defines the entry point for the console application.
 //
 
 #include "stdafx.h"
@@ -6,18 +6,17 @@
 
 void mydisplay() {
 	glClear(GL_COLOR_BUFFER_BIT);
-	glBegin(GL_POLYGON);
-	glVertex2f(-0.5, -0.5);
-	glVertex2f(-0.5, 0.5);
-	glVertex2f(0.5, 0.5);
-	glVertex2f(0.5, -0.5);
+	glBegin(GL_TRIANGLES);
+		glVertex2f(-0.5, -0.5);
+		glVertex2f(-0.5, 0.5);
+		glVertex2f(0.5, 0.5);
 	glEnd();
 	glFlush();
 }
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	printf("Hello World, this is 2D rectangle\n");
+	printf("OpenGL Primitives: Triangle\n");
 	glutCreateWindow("simple");
 	glutDisplayFunc(mydisplay);
 	glutMainLoop();

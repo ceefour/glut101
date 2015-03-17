@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{3C5F25D8-9B1F-4385-A8CE-4C7F7D179591}</ProjectGuid>
+    <ProjectGuid>{A563393E-5A25-4457-92D5-CD8E753728A2}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>glut101</RootNamespace>
+    <RootNamespace>glut103</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -59,6 +59,8 @@
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y /d  "$(SolutionDir)glut\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
       <Message>copy glut DLL</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -80,6 +82,8 @@
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y /d  "$(SolutionDir)glut\*.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+    <PostBuildEvent>
       <Message>copy glut DLL</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -92,7 +96,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="glut101.cpp" />
+    <ClCompile Include="glut103.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
