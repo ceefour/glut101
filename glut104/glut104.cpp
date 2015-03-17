@@ -9,7 +9,7 @@ void mydisplay() {
 
 	glBegin(GL_POLYGON);
 	glColor3f(0, 1, 0);
-	glVertex2f(-0.5, -0.5);
+	glVertex2f(0, 0);
 	glColor3f(0, 1, 1);
 	glVertex2f(-0.75, 0);
 	glColor3f(1, 1, 0);
