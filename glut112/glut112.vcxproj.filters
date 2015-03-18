@@ -27,6 +27,9 @@
     <ClInclude Include="..\glut\glut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -35,8 +38,20 @@
     <ClCompile Include="glut112.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\glut\lib\glut32.lib" />
+    <Library Include="..\glut\lib\glaux.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="crate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="special.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
