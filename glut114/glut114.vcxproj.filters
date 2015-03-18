@@ -27,6 +27,18 @@
     <ClInclude Include="..\glut\glut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tutorial4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3dsloader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -35,8 +47,24 @@
     <ClCompile Include="glut114.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3dsloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\glut\lib\glut32.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="GabrielI1B.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GabrielI1B.3ds">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
