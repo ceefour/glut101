@@ -27,12 +27,18 @@
     <ClInclude Include="..\glut\glut.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="glm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="glut118.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
