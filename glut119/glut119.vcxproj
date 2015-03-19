@@ -103,6 +103,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <Library Include="..\glut\lib\glaux.lib" />
     <Library Include="..\glut\lib\glut32.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
